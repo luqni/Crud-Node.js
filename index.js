@@ -15,7 +15,8 @@ const conn = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: '',
-  database: 'crud_db'
+  database: 'crud_db',
+  port: '3307'
 });
 
 //connect to database
